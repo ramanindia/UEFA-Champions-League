@@ -1,0 +1,31 @@
+{% extends "layouts/default.html" %}
+{% block content %}       
+          <section class="purpose section">
+                <div class="container">
+                    <h2 class="title">champions<br/>league</h2>
+                    <div class="row">
+                        {% set group = ['A','B','C','D','E','F','G','H'] %}
+                        {% set i = 0 %}
+                         {% for items in contentData | sort(false, true, 'color')%}
+                             <div class="col-sm-3">
+                            <div class="ubutia-card">
+                                <div class="ubutia-card-content">
+                                    <h3>Group {{ group[i] }}</h3>
+                                    {% for item in items | sort(true, true, 'color') %}
+                                    <ul class="list-group">
+                                      <li class="list-group-item"> 
+                                        <img width="50" height="50" src="{{ env.HOST_NAME }}images/{{item.logo}}">
+                                      {{ item.club }}</li>
+                                    </ul>
+                                    {% endfor %}
+                                     </div>
+                            </div>
+                        </div>
+                          {% set i = i+1 %}
+                      {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+  
+{% endblock %}
