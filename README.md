@@ -1,5 +1,5 @@
 # In the UEFA Champions League, the group stage comprises of 32 football clubs.
-<p>Simple you run command npm install (insall all required module).</p>
+<p>Simple you run command npm install (install all required module).</p>
 <p>config database change config/database.js.  </p>
 <p>'url' : 'mongodb://username:password@hostname:post/database'. </p>
 <p>example : 'url' : 'mongodb://test:123456/127.0.0.1:27017/test' . </p>
@@ -243,7 +243,7 @@ db.clubs.insert({
 <p>Our goal is to create a program / website application which randomly generates 8 groups
 with 4 teams each</p>
 
-<h1>Rules & Instructions :<h1>
+<h1>Rules & Instructions :</h1>
 <p>● Use the list of teams given on Page 1.</p>
 <p>● Group names will be “Group A”, “Group B”, “Group C” and so on.</p>
 <p>● A group cannot have more than one team from the same country.</p>
