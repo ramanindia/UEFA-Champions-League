@@ -30,10 +30,8 @@ Club.aggregate( [ { $sample: { size: 32 } } ], function(err, results)
 				      	if(j%3==0)
 				     	{
 				     		var domesticArrayKey =  j/3;
-				     		//console.log("domesticArrayKey=======",domesticArrayKey-1);
 				     		var key = domesticArrayKey-1;
 				     		temp.push(totalDomesticclubs[key]);
-				     		//console.log("Domestic team is",totalDomesticclubs[key]);
 				     	}
 				     	 if(j%3!=0)
 	                	 {
@@ -48,56 +46,6 @@ Club.aggregate( [ { $sample: { size: 32 } } ], function(err, results)
 	                	 j++;
 				       i++;
 				    });
-
-				    // console.log(result);
-
-
-				     /*var temp =[];
-				     var result= [];
-
-				     //console.log("Length==="+totalClubsWithoutDomestic.length);
-				     var j=1;
-		               for (var i =0; i < totalClubsWithoutDomestic.length; i++)
-		                {
-		                	 if(j%3!=0)
-		                	 {
-								temp.push(totalClubsWithoutDomestic[i]);
-		                	 }
-		                	 else
-		                	 {
-		                	 	temp.push(totalClubsWithoutDomestic[i]);
-		                	 	result.push(temp);
-		                	 	 //console.log(temp);
-		                	 	 //console.log("@@@@@@@@");
-		                	 	temp = [];
-		                	 }
-		                	 //console.log(result);
-		                	//var totali =  i/3;
-		                	//console.log("totali====="+totali);
-		                	//var totalj = totali%3;
-		                	//console.log("totalj====="+totalj);
-		                   //console.log(totalClubsWithoutDomestic[i]);
-		                	//console.log(i);
-		                	/*data.push(totalClubsWithoutDomestic[i]);*/
-		                	/*if(i%4==0)
-						     {
-						     	console.log('not divide');
-						     	console.log(i);
-						     }
-						     else
-						     {
-						     	console.log(' divide');
-						     	console.log(i);
-						     }*/
-						    // j++;
-		               //}
-				/*for (var value in result)
-				{
-					result[value].forEach(function(item)
-					{
-						console.log(item);
-					});
-				}*/
  
 				     res.render('club/club.html',
 							{
