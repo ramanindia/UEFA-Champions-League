@@ -14,6 +14,7 @@ global.env = process.env;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
+global.FUNCTIONS = require('./functions');
 //view engine setup
 app.use(express.static(path.join(__dirname, 'public')));
 //app.set('view engine', 'html')
@@ -22,13 +23,13 @@ nunjucks.configure('app/views', {
   express   : app
 });
 
+
 /***************Mongodb configuratrion********************/
 var mongoose = require('mongoose');
 var configDB = require('./config/database.js');
 
 //configuration
 mongoose.connect(configDB.url,{ useMongoClient: true }); // connect to our database
-
  // routes ======================================================================
 require('./config/routes.js')(app); // load our routes and pass in our app
 

@@ -1,0 +1,256 @@
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e74"),
+    "club" : "Anderlecht",
+    "country" : "BEL",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e75"),
+    "club" : "APOEL",
+    "country" : "CYP",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e76"),
+    "club" : "Atlético​ ​Madri",
+    "country" : "ESP",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+{
+    "_id" : ObjectId("5a257b804f518eb302585e77"),
+    "club" : "Barcelona",
+    "country" : "ESP",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e78"),
+    "club" : "Basel",
+    "country" : "SUI",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e79"),
+    "club" : "Bayern​ ​Münche",
+    "country" : "GER",
+    "color" : "red",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e7a"),
+    "club" : "Benfica",
+    "country" : "POR",
+    "color" : "red",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e7b"),
+    "club" : "Beşiktaş",
+    "country" : "TUR",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e7c"),
+    "club" : "Borussia​ ​Dortmund​",
+    "country" : "GER",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e7d"),
+    "club" : "Celtic",
+    "country" : "SCO",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e7e"),
+    "club" : "Chelsea",
+    "country" : "ENG",
+    "color" : "red",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e7f"),
+    "club" : "CSKA​ ​Moskva​",
+    "country" : "RUS",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e80"),
+    "club" : "Feyenoord",
+    "country" : "NED",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e81"),
+    "club" : "Juventus",
+    "country" : "ITA",
+    "color" : "red",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e82"),
+    "club" : "Liverpool",
+    "country" : "ENG",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e83"),
+    "club" : "Manchester​ ​City​",
+    "country" : "ENG",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e84"),
+    "club" : "Manchester​ ​United​",
+    "country" : "ENG",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e85"),
+    "club" : "Maribor​",
+    "country" : "SVN",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e86"),
+    "club" : "Monaco",
+    "country" : "FRA",
+    "color" : "red",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e87"),
+    "club" : "Napoli",
+    "country" : "ITA",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e88"),
+    "club" : "Olympiacos",
+    "country" : "GRE",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e89"),
+    "club" : "Paris​ ​Saint-Germain​",
+    "country" : "FRA",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e8a"),
+    "club" : "Porto",
+    "country" : "POR",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e8b"),
+    "club" : "Qarabağ",
+    "country" : "AZE",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e8c"),
+    "club" : "RB​ ​Leipzig​",
+    "country" : "GER",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e8d"),
+    "club" : "Real​ ​Madrid",
+    "country" : "ESP",
+    "color" : "red",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e8e"),
+    "club" : "Roma",
+    "country" : "ITA",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e8f"),
+    "club" : "Sevilla",
+    "country" : "ESP",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e90"),
+    "club" : "Shakhtar​ ​Donetsk​",
+    "country" : "UKR",
+    "color" : "red",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e91"),
+    "club" : "Spartak​ ​Moskva​",
+    "country" : "RUS",
+    "color" : "red",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e92"),
+    "club" : "Sporting​ ​CP​",
+    "country" : "POR",
+    "color" : "",
+    "logo" : "no_image.png"
+}
+
+{
+    "_id" : ObjectId("5a257b804f518eb302585e93"),
+    "club" : "Tottenham​ ​Hotspur",
+    "country" : "ENG",
+    "color" : "",
+    "logo" : "no_image.png"
+}

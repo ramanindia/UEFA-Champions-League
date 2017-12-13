@@ -246,6 +246,7 @@ with 4 teams each</p>
 <h1>Rules & Instructions :</h1>
 <p>● Use the list of teams given on Page 1.</p>
 <p>● Group names will be “Group A”, “Group B”, “Group C” and so on.</p>
+<p>● A group cannot have more than one team from the same country.</p>
 <p>● The teams marked in red are domestic league champions. The first team of everygroup must be a domestic league champion.</p>
 <p>● The program should be able to generate a fresh new list each time it is run.</p>
 <p>● The program should output a list of teams under each group title.</p>
